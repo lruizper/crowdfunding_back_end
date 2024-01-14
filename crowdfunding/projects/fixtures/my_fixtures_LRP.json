@@ -1,0 +1,149 @@
+[
+{
+    "model": "projects.project",
+    "pk": 1,
+    "fields": {
+        "title": "Project one",
+        "description": "The first project.",
+        "goal": 150,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2020-03-20T14:28:23.382Z",
+        "owner": "Real Creator"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 2,
+    "fields": {
+        "title": "Project two",
+        "description": "The second project.",
+        "goal": 150,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2021-03-20T14:28:23.382Z",
+        "owner": "Real Creator"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 3,
+    "fields": {
+        "title": "el tercero",
+        "description": "La tercera es la vencida, highly ambitious",
+        "goal": 3000,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2023-03-20T14:28:23.382Z",
+        "owner": "Real Creator"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 4,
+    "fields": {
+        "title": "Innovate Forward",
+        "description": "Pioneering new horizons in technology, aimed at groundbreaking achievements.",
+        "goal": 5000,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2024-01-05T10:15:30.123Z",
+        "owner": "Tech Visionaries"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 5,
+    "fields": {
+        "title": "Green Tomorrow",
+        "description": "Focused on sustainable solutions for a healthier planet, embracing eco-friendly innovations.",
+        "goal": 2500,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": false,
+        "date_created": "2023-12-12T09:20:45.678Z",
+        "owner": "Eco Warriors"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 6,
+    "fields": {
+        "title": "Health Hub",
+        "description": "Revolutionizing healthcare with advanced digital tools, committed to improving patient outcomes.",
+        "goal": 4000,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2024-02-28T18:30:00.987Z",
+        "owner": "MediTech Innovators"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 7,
+    "fields": {
+        "title": "TechHer Innovate",
+        "description": "A platform dedicated to nurturing female tech talents, providing resources and community support for women in technology.",
+        "goal": 4500,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": false,
+        "date_created": "2023-11-25T17:45:10.123Z",
+        "owner": "Future Female Founders"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 8,
+    "fields": {
+        "title": "Code Empowerment",
+        "description": "Empowering women through coding education and tech entrepreneurship, fostering gender equality in the tech industry.",
+        "goal": 3500,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2024-03-08T11:00:23.456Z",
+        "owner": "Digital Divas"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 9,
+    "fields": {
+        "title": "Code Empowerment",
+        "description": "Empowering women through coding education and tech entrepreneurship, fostering gender equality in the tech industry.",
+        "goal": 3500,
+        "image": "https://via.placeholder.com/300.jpg",
+        "is_open": true,
+        "date_created": "2024-03-08T11:00:23.456Z",
+        "owner": "Digital Divas"
+    }
+},
+{
+    "model": "projects.pledge",
+    "pk": 1,
+    "fields": {
+        "amount": 50,
+        "comment": "Love this project!",
+        "anonymous": false,
+        "project": 1
+    }
+},
+{
+    "model": "projects.pledge",
+    "pk": 2,
+    "fields": {
+        "amount": 100,
+        "comment": "Excited to support innovative women entrepreneurs!",
+        "anonymous": false,
+        "project": 1
+    }
+},
+{
+    "model": "projects.pledge",
+    "pk": 3,
+    "fields": {
+        "amount": 75,
+        "comment": "Every bit helps! Supporting women in business.",
+        "anonymous": true,
+        "project": 1
+    }
+}
+]
