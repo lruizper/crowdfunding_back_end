@@ -145,5 +145,35 @@
         "anonymous": true,
         "project": 1
     }
+},
+{
+    "model": "projects.pledge",
+    "pk": 4,
+    "fields": {
+        "amount": 300,
+        "comment": "Great to see such innovative ideas. Best of luck!",
+        "anonymous": false,
+        "project": 4
+    }
+},
+{
+    "model": "projects.pledge",
+    "pk": 5,
+    "fields": {
+        "amount": 75,
+        "comment": "Every bit helps! Supporting women in business.",
+        "anonymous": true,
+        "project": 3
+    }
+},
+{
+    "model": "projects.pledge",
+    "pk": 6,
+    "fields": {
+        "amount": 1000,
+        "comment": "Excited to support innovative women entrepreneurs!",
+        "anonymous": false,
+        "project": 5
+    }
 }
 ]
