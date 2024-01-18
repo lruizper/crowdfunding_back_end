@@ -7,12 +7,12 @@ class PledgeSerializer(serializers.ModelSerializer):
         model = Pledge
         fields = '__all__'
     def update (self, instance, validated_data):
-        instance.amount = validated_data.get('amount', instance.amount)
         instance.comment = validated_data.get('comment', instance.comment)
         instance.anonymous = validated_data.get('anonymous', instance.anonymous)
-        #unsure about these two, user should not be allowed to pledge to a different project or change the supporter
-        instance.project = validated_data.get('project', instance.project)
-        instance.supporter = validated_data.get('supporter', instance.supporter)
+        # User should not be allowed to change the pledge ammount or pledge to a different project or change the supporter
+        # instance.amount = validated_data.get('amount', instance.amount)
+        # instance.project = validated_data.get('project', instance.project)
+        # instance.supporter = validated_data.get('supporter', instance.supporter)
         instance.save()
         return instance
 
